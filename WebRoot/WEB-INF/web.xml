@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerLogLetSelvert</servlet-name>
+    <servlet-class>com.selvert.CustomerLogLetSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerLogLetSelvert</servlet-name>
+    <servlet-class>com.selvert.ManagerLogLetSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterLetSelvert</servlet-name>
+    <servlet-class>com.selvert.RegisterLetSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerListSelvert</servlet-name>
+    <servlet-class>com.selvert.CustomerListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManagerListSelvert</servlet-name>
+    <servlet-class>com.selvert.ManagerListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TextSelvert</servlet-name>
+    <servlet-class>com.selvert.TextSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerDeleteListSelvert</servlet-name>
+    <servlet-class>com.selvert.CustomerDeleteListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerAddListSelvert</servlet-name>
+    <servlet-class>com.selvert.CustomerAddListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerUpdateListSelvert</servlet-name>
+    <servlet-class>com.selvert.CustomerUpdateListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerUpdateShowListSelvert</servlet-name>
+    <servlet-class>com.selvert.CustomerUpdateShowListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeListSelvert</servlet-name>
+    <servlet-class>com.selvert.BookTypeListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookUpdateShowListSelvert</servlet-name>
+    <servlet-class>com.selvert.BookTypeUpdateShowListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeUpdateListSelvert</servlet-name>
+    <servlet-class>com.selvert.BookTypeUpdateListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeDeleteListSelvert</servlet-name>
+    <servlet-class>com.selvert.BookTypeDeleteListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeAddShowListSelvert</servlet-name>
+    <servlet-class>com.selvert.BookTypeAddShowListSelvert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookTypeAddListSelvert</servlet-name>
+    <servlet-class>com.selvert.BookTypeAddListSelvert</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CustomerLogLetSelvert</servlet-name>
+    <url-pattern>/servlet/CustomerLogLetSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerLogLetSelvert</servlet-name>
+    <url-pattern>/servlet/ManagerLogLetSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterLetSelvert</servlet-name>
+    <url-pattern>/servlet/RegisterLetSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerListSelvert</servlet-name>
+    <url-pattern>/servlet/CustomerListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerListSelvert</servlet-name>
+    <url-pattern>/servlet/ManagerListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TextSelvert</servlet-name>
+    <url-pattern>/servlet/TextSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDeleteListSelvert</servlet-name>
+    <url-pattern>/servlet/CustomerDeleteListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerAddListSelvert</servlet-name>
+    <url-pattern>/servlet/CustomerAddListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerUpdateListSelvert</servlet-name>
+    <url-pattern>/servlet/CustomerUpdateListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerUpdateShowListSelvert</servlet-name>
+    <url-pattern>/servlet/CustomerUpdateShowListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeListSelvert</servlet-name>
+    <url-pattern>/servlet/BookTypeListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookUpdateShowListSelvert</servlet-name>
+    <url-pattern>/servlet/BookUpdateShowListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeUpdateListSelvert</servlet-name>
+    <url-pattern>/servlet/BookTypeUpdateListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeDeleteListSelvert</servlet-name>
+    <url-pattern>/servlet/BookTypeDeleteListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeAddShowListSelvert</servlet-name>
+    <url-pattern>/servlet/BookTypeAddShowListSelvert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookTypeAddListSelvert</servlet-name>
+    <url-pattern>/servlet/BookTypeAddListSelvert</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
